@@ -22,6 +22,12 @@ namespace ClassLibrary1
         {
             Assert.Equal(5, Add(2, 2));
         }
+		
+		[Test]
+        public void Blablabla()
+        {
+            Assert.Equal(5, Add(7, 2));
+        }
 
         int Add(int x, int y)
         {

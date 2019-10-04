@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-run id="2" testcasecount="2" result="Failed" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-10-04 13:28:24Z" end-time="2019-10-04 13:28:31Z" duration="7.276836">
-  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  "C:\Users\ksenia.ilina\source\repos\NUnitTests\ClassLibrary1\bin\Debug\ClassLibrary1.dll" --debug]]></command-line>
-  <test-suite type="Assembly" id="0-1003" name="ClassLibrary1.dll" fullname="C:\Users\ksenia.ilina\source\repos\NUnitTests\ClassLibrary1\bin\Debug\ClassLibrary1.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-10-04 13:28:31Z" end-time="2019-10-04 13:28:31Z" duration="0.204134" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
-    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Users\ksenia.ilina\source\repos\NUnitTests" machine-name="UNIT-1446" user="ksenia.ilina" user-domain="UNIT-1446" culture="en-US" uiculture="en-US" os-architecture="x64" />
+<test-run id="2" testcasecount="3" result="Failed" total="3" passed="1" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-10-04 14:01:19Z" end-time="2019-10-04 14:01:20Z" duration="0.616331">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  "C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple\ClassLibrary1\bin\Debug\ClassLibrary1.dll"]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="ClassLibrary1.dll" fullname="C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple\ClassLibrary1\bin\Debug\ClassLibrary1.dll" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2019-10-04 14:01:19Z" end-time="2019-10-04 14:01:20Z" duration="0.195610" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple" machine-name="UNIT-1446" user="ksenia.ilina" user-domain="UNIT-1446" culture="en-US" uiculture="en-US" os-architecture="x64" />
     <settings>
       <setting name="DisposeRunners" value="True" />
-      <setting name="WorkDirectory" value="C:\Users\ksenia.ilina\source\repos\NUnitTests" />
-      <setting name="DebugTests" value="True" />
-      <setting name="NumberOfTestWorkers" value="0" />
+      <setting name="WorkDirectory" value="C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple" />
       <setting name="ImageRuntimeVersion" value="4.0.30319" />
       <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
       <setting name="ImageRequiresX86" value="False" />
       <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="12" />
     </settings>
     <properties>
-      <property name="_PID" value="19300" />
+      <property name="_PID" value="3708" />
       <property name="_APPDOMAIN" value="domain-" />
     </properties>
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="TestSuite" id="0-1004" name="ClassLibrary1" fullname="ClassLibrary1" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-10-04 13:28:31Z" end-time="2019-10-04 13:28:31Z" duration="0.182276" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="TestSuite" id="0-1005" name="ClassLibrary1" fullname="ClassLibrary1" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2019-10-04 14:01:19Z" end-time="2019-10-04 14:01:20Z" duration="0.178941" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
       <failure>
         <message><![CDATA[One or more child tests had errors]]></message>
       </failure>
-      <test-suite type="TestFixture" id="0-1000" name="Class1" fullname="ClassLibrary1.Class1" classname="ClassLibrary1.Class1" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-10-04 13:28:31Z" end-time="2019-10-04 13:28:31Z" duration="0.180723" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestFixture" id="0-1000" name="Class1" fullname="ClassLibrary1.Class1" classname="ClassLibrary1.Class1" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2019-10-04 14:01:19Z" end-time="2019-10-04 14:01:20Z" duration="0.174981" total="3" passed="1" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="0">
         <failure>
           <message><![CDATA[One or more child tests had errors]]></message>
         </failure>
-        <test-case id="0-1002" name="FailingTest" fullname="ClassLibrary1.Class1.FailingTest" methodname="FailingTest" classname="ClassLibrary1.Class1" runstate="Runnable" seed="1862171831" result="Failed" label="Error" start-time="2019-10-04 13:28:31Z" end-time="2019-10-04 13:28:31Z" duration="0.171313" asserts="0">
+        <test-case id="0-1002" name="FailingTest" fullname="ClassLibrary1.Class1.FailingTest" methodname="FailingTest" classname="ClassLibrary1.Class1" runstate="Runnable" seed="433307635" result="Failed" label="Error" start-time="2019-10-04 14:01:19Z" end-time="2019-10-04 14:01:20Z" duration="0.164016" asserts="0">
           <failure>
             <message><![CDATA[Xunit.Sdk.EqualException : Assert.Equal() Failure
 Expected: 5
 Actual:   4]]></message>
             <stack-trace><![CDATA[   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in C:\Dev\xunit\xunit\src\xunit.assert\Asserts\EqualityAsserts.cs:line 40
-   at ClassLibrary1.Class1.FailingTest() in C:\Users\ksenia.ilina\source\repos\NUnitTests\ClassLibrary1\Class1.cs:line 23]]></stack-trace>
+   at ClassLibrary1.Class1.FailingTest() in C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple\ClassLibrary1\Class1.cs:line 23]]></stack-trace>
           </failure>
         </test-case>
-        <test-case id="0-1001" name="PassingTest" fullname="ClassLibrary1.Class1.PassingTest" methodname="PassingTest" classname="ClassLibrary1.Class1" runstate="Runnable" seed="1507879640" result="Passed" start-time="2019-10-04 13:28:31Z" end-time="2019-10-04 13:28:31Z" duration="0.000193" asserts="0" />
+        <test-case id="0-1003" name="FailingTest2" fullname="ClassLibrary1.Class1.FailingTest2" methodname="FailingTest2" classname="ClassLibrary1.Class1" runstate="Runnable" seed="930947801" result="Failed" label="Error" start-time="2019-10-04 14:01:20Z" end-time="2019-10-04 14:01:20Z" duration="0.000759" asserts="0">
+          <failure>
+            <message><![CDATA[Xunit.Sdk.EqualException : Assert.Equal() Failure
+Expected: 5
+Actual:   9]]></message>
+            <stack-trace><![CDATA[   at Xunit.Assert.Equal[T](T expected, T actual, IEqualityComparer`1 comparer) in C:\Dev\xunit\xunit\src\xunit.assert\Asserts\EqualityAsserts.cs:line 40
+   at ClassLibrary1.Class1.FailingTest2() in C:\Users\ksenia.ilina\source\repos\NUnitTests\NUnitSimple\ClassLibrary1\Class1.cs:line 29]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="0-1001" name="PassingTest" fullname="ClassLibrary1.Class1.PassingTest" methodname="PassingTest" classname="ClassLibrary1.Class1" runstate="Runnable" seed="31054650" result="Passed" start-time="2019-10-04 14:01:20Z" end-time="2019-10-04 14:01:20Z" duration="0.000152" asserts="0" />
       </test-suite>
     </test-suite>
   </test-suite>
