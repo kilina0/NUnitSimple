@@ -44,6 +44,62 @@ namespace ClassLibrary1
             Assert.Equal("有永定河流经老城西南", "有永定河流经老城");
         }
 
+        [Test]
+        public void КонстантинВеликий()
+        {
+            Console.Error.WriteLine("Римский император Константин I Великий по достоинству оценил выгодное местоположение приморского Византия, расположенного на стыке Европы и Азии. Кроме того, на решение Константина повлияла неспокойная обстановка в самом Риме: недовольство знати и постоянные распри в борьбе за трон. Император хотел увенчать свою реформаторскую деятельность созданием нового административного центра огромной державы. Закладка города состоялась осенью 324 года, и Константин лично решил обозначить его границы.");
+            Console.WriteLine("123456");
+            Assert.Equal("Великий по достоинству оценил", "Великий по достоинству оценил местоположение");
+        }
+
+        [Test]
+        public void ين()
+        {
+            Console.Error.WriteLine("وضع ابن الهيثم تصور واضح للعلاقة بين النموذج الرياضي المثالي ومنظومة الظواهر الملحوظة.");
+            Console.WriteLine("123456");
+            Assert.Equal("ومنظومة الظواهر الملحوظة", "ومنظومة الظواهر ال");
+        }
+
+        [Test]
+        public void Римский的西北边缘()
+        {
+            Console.Error.WriteLine("Lorem ipsum dolor sit amet, Римский император Константин I Великий, 北京位於華北平原的西北边缘");
+            Console.WriteLine("123456");
+            Assert.Equal("Lorem ipsum dolor sit amet, Римский император Константин I Великий, Lorem ipsum dolor sit amet, Римский император Константин I Великий, 北京位於華北平原的", "有永定河流经老城");
+        }
+
+        [Test]
+        public void Přílišžluťoučký()
+        {
+            Console.Error.WriteLine("Příliš žluťoučký kůň úpěl ďábelské ódy");
+            Console.WriteLine("123456");
+            Assert.Equal("Příliš žluťoučký kůň úpěl ďábelské ódy", "Příliš žluťoučký kůň úpěl  ódy");
+        }
+
+        [Test]
+        public void ทดสอบนะจ๊ะ()
+        {
+            Console.Error.WriteLine("ทดสอบนะจ๊ะ");
+            Console.WriteLine("123456");
+            Assert.Equal("ทดสอบนะจ๊ะ", "ทดสอบนะจ๊ะ3");
+        }
+
+        [Test]
+        public void भूरी()
+        {
+            Console.Error.WriteLine("एक जल्दी भूरी लोमड़ी");
+            Console.WriteLine("123456");
+            Assert.Equal("एक जल्दी भूरी लोमड़ी आलसी कुत्ते पर कूदता", "एक जल्दी भूरी लोमड़ी आलसी कुत्ते पर कूदता32");
+        }
+
+        [Test]
+        public void Iñtërnâtiônàlizætiøn()
+        {
+            Console.Error.WriteLine("Iñtërnâtiônàlizætiøn☃💪");
+            Console.WriteLine("123456");
+            Assert.Equal("Iñtërnâtiônàlizætiøn☃💪", "Iñtërnâtiônàlizætiøn☃💪32");
+        }
+
         int Add(int x, int y)
         {
             return x + y;
