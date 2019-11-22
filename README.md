@@ -1,1 +1,3 @@
 # NUnitSimple
+
+test
