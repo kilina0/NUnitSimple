@@ -24,7 +24,7 @@ namespace ClassLibrary1
         }
 	
 	[Test]
-        public void FailingTest2.5()
+        public void FailingTest4()
         {
             Assert.Equal(5, Add(2, 4));
         }
