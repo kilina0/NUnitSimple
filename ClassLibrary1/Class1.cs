@@ -106,7 +106,7 @@ namespace ClassLibrary1
             Assert.Equal("Iñtërnâtiônàlizætiøn☃💪", "Iñtërnâtiônàlizætiøn☃💪32");
         }
 
-        [TestMethod]
+        [Test]
         [DataRow(1, "1")]
         [DataRow(2, "2")]
         [DataRow(3, "Fizz", DisplayName = "Multiple of 3: 3 ")]
