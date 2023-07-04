@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using Assert = Xunit.Assert;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace ClassLibrary1
 {
@@ -106,7 +108,7 @@ namespace ClassLibrary1
             Assert.Equal("Iñtërnâtiônàlizætiøn☃💪", "Iñtërnâtiônàlizætiøn☃💪32");
         }
 
-        [Test]
+        [TestMethod]
         [DataRow(1, "1")]
         [DataRow(2, "2")]
         [DataRow(3, "Fizz", DisplayName = "Multiple of 3: 3 ")]
