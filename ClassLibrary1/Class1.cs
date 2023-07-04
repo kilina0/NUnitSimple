@@ -106,6 +106,21 @@ namespace ClassLibrary1
             Assert.Equal("Iñtërnâtiônàlizætiøn☃💪", "Iñtërnâtiônàlizætiøn☃💪32");
         }
 
+        [TestMethod]
+        [DataRow(1, "1")]
+        [DataRow(2, "2")]
+        [DataRow(3, "Fizz", DisplayName = "Multiple of 3: 3 ")]
+        [DataRow(4, "4")]
+        [DataRow(5, "Buzz", DisplayName = "Multiple of 5: 5 ")]
+        [DataRow(6, "Fizz", DisplayName = "Multiple of 3: 3 ")]
+        [DataRow(10, "Buzz", DisplayName = "Multiple of 5: 10 ")]
+        [DataRow(11, "11")]
+        [DataRow(15, "FizzBuzz", DisplayName = "Multiple of 3 & 5: 15 ")]
+        public void FizzBuzz(int input, string expected)
+        {
+            Assert.AreEqual(expected, UnderTest.FizzBuzz(input));
+        }
+
         int Add(int x, int y)
         {
             return x + y;
