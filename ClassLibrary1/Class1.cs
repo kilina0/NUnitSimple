@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using Assert = Xunit.Assert;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
 namespace ClassLibrary1
